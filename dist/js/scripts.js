@@ -54,3 +54,8 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+const emailTag = document.querySelector('#email');
+const phoneTag = document.querySelector('#phone');
+emailTag.textContent = 'jschaef99@gmail.com';
+phoneTag.textContent = '562-852-3840';
