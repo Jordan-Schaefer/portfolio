@@ -10165,6 +10165,28 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.head-shadow {
+    text-shadow: 5px 5px 30px #1c2833;
+}
+
+.light-yellow {
+    background-image: linear-gradient(to right bottom, #c9dfb7, #e8ecbf, #fad694);
+}
+
+.light-blue {
+    background-image: linear-gradient(to right top, rgb(199, 246, 250), rgb(254, 219, 255));
+}
+
+.separator {
+    height: 20px;
+    background-image: linear-gradient(to right top, rgb(78, 77, 77), rgb(224, 224, 224));
+}
+
+.gif {
+    width: 80%;
+    height: 100%;
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
