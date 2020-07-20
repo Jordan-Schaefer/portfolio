@@ -10170,8 +10170,21 @@ header.masthead .masthead-heading {
 }
 
 .light-yellow {
-    /* background-color: #f4f6de; */
-    background-image: linear-gradient(to right bottom, #dbddcf, #e8ecbf, #fbdda6);
+    background-image: linear-gradient(to right bottom, #c9dfb7, #e8ecbf, #fad694);
+}
+
+.light-blue {
+    background-image: linear-gradient(to right top, rgb(199, 246, 250), rgb(254, 219, 255));
+}
+
+.separator {
+    height: 20px;
+    background-image: linear-gradient(to right top, rgb(78, 77, 77), rgb(224, 224, 224));
+}
+
+.gif {
+    width: 80%;
+    height: 100%;
 }
 
 @media (min-width: 768px) {
