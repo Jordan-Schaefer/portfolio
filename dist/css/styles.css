@@ -10170,11 +10170,15 @@ header.masthead .masthead-heading {
 }
 
 .light-yellow {
-    background-image: linear-gradient(to right bottom, #d3babe, #f6b6e1, #c8b3e4);
+    background-image: linear-gradient(to right bottom, #b5b5c0, #343b42);
 }
 
 .light-blue {
-    background-image: linear-gradient(to right top, rgb(184, 243, 248), rgb(178, 183, 184));
+    background-image: linear-gradient(to right bottom, rgb(184, 243, 248), rgb(76, 172, 228));
+}
+
+.list-items {
+    color: black;
 }
 
 .separator {
