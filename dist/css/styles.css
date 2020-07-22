@@ -10170,11 +10170,11 @@ header.masthead .masthead-heading {
 }
 
 .light-yellow {
-    background-image: linear-gradient(to right bottom, #c9dfb7, #e8ecbf, #fad694);
+    background-image: linear-gradient(to right bottom, #d3babe, #f6b6e1, #c8b3e4);
 }
 
 .light-blue {
-    background-image: linear-gradient(to right top, rgb(199, 246, 250), rgb(254, 219, 255));
+    background-image: linear-gradient(to right top, rgb(184, 243, 248), rgb(178, 183, 184));
 }
 
 .separator {
