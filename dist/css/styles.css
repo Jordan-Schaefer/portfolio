@@ -10169,6 +10169,10 @@ header.masthead .masthead-heading {
     text-shadow: 5px 5px 30px #1c2833;
 }
 
+.list-shadow {
+    text-shadow: 5px 5px 30px #fbfbfb;
+}
+
 .light-yellow {
     background-image: linear-gradient(to right bottom, #b5b5c0, #343b42);
 }
