@@ -10190,6 +10190,10 @@ header.masthead .masthead-heading {
     background-image: linear-gradient(to right top, rgb(78, 77, 77), rgb(224, 224, 224));
 }
 
+.icon {
+    max-width: 25%;
+}
+
 .gif {
     width: 80%;
     height: 100%;
