@@ -57,5 +57,7 @@
 
 const emailTag = document.querySelector('#email');
 const phoneTag = document.querySelector('#phone');
+emailTag.setAttribute('href', 'mailto:jschaef99@gmail.com');
+phoneTag.setAttribute('href', 'tel:5628523840');
 emailTag.textContent = 'jschaef99@gmail.com';
 phoneTag.textContent = '562-852-3840';
