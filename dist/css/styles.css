@@ -10165,6 +10165,12 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.about-me-font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    padding: 3% 0;
+}
+
 .head-shadow {
     text-shadow: 5px 5px 30px #1c2833;
 }
@@ -10174,11 +10180,15 @@ header.masthead .masthead-heading {
 }
 
 .light-yellow {
-    background-image: linear-gradient(to right bottom, #b5b5c0, #343b42);
+    background-image: linear-gradient(to right bottom, #e0e0e2, #343b42);
 }
 
 .light-blue {
-    background-image: linear-gradient(to right bottom, rgb(184, 243, 248), rgb(76, 172, 228));
+    background-image: linear-gradient(to right bottom, rgb(213, 250, 253), rgb(76, 172, 228));
+}
+
+.antique {
+    background-image: linear-gradient(to right bottom, rgb(250, 247, 200), rgb(255, 252, 234));
 }
 
 .list-items {
@@ -10196,6 +10206,10 @@ header.masthead .masthead-heading {
 
 .icon {
     width: 40%;
+    transition: all .1s ease-in-out;
+}
+.icon:hover {
+    width: 41%;
 }
 
 .gif {
